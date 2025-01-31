@@ -19,8 +19,8 @@ The data for this project is sourced from Kaggle.
 
 **Dataset Link:** [Movies Dataset](https://www.kaggle.com/)
 
-## Schema
-sql
+### Schema
+```sql
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix (
     show_id      VARCHAR(5),
