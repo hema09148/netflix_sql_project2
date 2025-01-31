@@ -212,7 +212,8 @@ FROM (
     FROM netflix
 ) AS categorized_content
 GROUP BY category;
-##Objective: Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
+
+### Objective: Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
 
 
 
