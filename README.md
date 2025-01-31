@@ -21,7 +21,7 @@ The data for this project is sourced from Kaggle.
 
 
 ## Business Problems and Solutions
-1. Count the Number of Movies vs TV Shows
+##1. Count the Number of Movies vs TV Shows
 sql
 Copy
 Edit
