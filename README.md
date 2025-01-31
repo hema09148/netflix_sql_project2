@@ -21,16 +21,13 @@ The data for this project is sourced from Kaggle.
 
 
 ## Business Problems and Solutions
-##1. Count the Number of Movies vs TV Shows
+## 1. Count the Number of Movies vs TV Shows
 sql
-Copy
-Edit
 SELECT 
     type,
     COUNT(*)
 FROM netflix
 GROUP BY 1;
-Objective: Determine the distribution of content types on Netflix.
 
 2. Find the Most Common Rating for Movies and TV Shows
 sql
